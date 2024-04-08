@@ -12,6 +12,6 @@ tensorflow-gpu            1.15.0
 
 Please run the 'train_acm.py' file to start.
 
-The data used in SCMVC can be downloaded below:
+The data used in SCMVC can be downloaded at:
 https://pan.baidu.com/s/11oaAJkgx3foTODxSIHfkQg 
 提取码：sckk
