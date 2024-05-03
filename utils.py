@@ -1,5 +1,5 @@
 # !usr/bin/python
-# Author:das
+# Author:kk
 # -*-coding: utf-8 -*-
 import numpy as np
 from urllib import request
