@@ -17,7 +17,7 @@ from optimizer import OptimizerAE, OptimizerVAE
 from clustering_metric import clustering_metrics
 from preprocessing import (construct_feed_dict, mask_test_edges,
                            preprocess_graph, sparse_to_tuple)
-# import warnings filter
+
 from warnings import simplefilter
 # ignore all future warnings
 simplefilter(action='ignore', category=FutureWarning)
