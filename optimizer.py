@@ -21,7 +21,6 @@ class OptimizerAE(object):
 
         q = model.cluster_layer_q
         self.kl_loss = tf.reduce_mean(p * tf.log(p / q))
-        # self.cost_kl = self.cost + 1 * self.kl_loss
         self.cost_kl = FLAGS.a4 * self.kl_loss + self.cost
         self.optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate)  # Adam Optimizer
         #self.optimizer = tf.train.GradientDescentOptimizer(learning_rate=FLAGS.learning_rate)  # Adam Optimizer
